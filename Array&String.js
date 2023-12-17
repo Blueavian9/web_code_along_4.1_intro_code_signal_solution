@@ -23,11 +23,14 @@ variable  with the first element of the array.*/
     if (arr[i] > max) {
       max = arr[i];
     }
-    // Return the Maximum Returns the maximum value found in the array. */
+    /* Return the Maximum Returns the 
+    maximum value found in the array. */
     return max;
   }
 
-  // Test the function: ** Creates an array `myArray` and calls the `findMax` function to find the maximum element, which is `23`.
+  /* Test the function: ** Creates an 
+  array `myArray` and calls the `findMax` function
+  to find the maximum element, which is `23`. */
   const myArray = [12, 5, 23, 8, 9];
   console.log(findMax(mayArray)); // Outputs 23
 }
